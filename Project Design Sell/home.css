@@ -1,0 +1,135 @@
+body
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(51,47,68,0.89);
+}
+h1
+{
+  justify-text: center;
+}
+header{
+  height:auto;
+
+}
+.logo{
+  background-image:url("image\\bg.jpg");
+  color: white;
+  background-size: contain;
+
+
+}
+.logo img
+{
+  height:100px;
+  width:100px;
+}
+.inline_block{
+  display:inline-block;
+}
+.container
+{
+  margin:auto;
+  background: linear-gradient(
+      to right,
+      black,
+      transparent
+    );
+  width:1024px;
+  color:white;
+
+  box-shadow:1px 1px black;
+}
+ul
+{
+  list-style-type:None;
+  margin : 10px;
+}
+.navbar
+{
+
+  border-top: 7px solid white;
+  height: 50px;
+  border-bottom: 5px solid white;
+  border-radius: 2px;
+
+
+}
+a
+{
+  color: white;
+}
+div .main{
+
+  width: 510px;
+  height: 500px;
+  border-right: 4px solid white;
+}
+div .sidemenu
+{
+
+  width: 500px;
+  height: 500px;
+
+}
+.navbar a li
+{
+  display:inline-block;
+  padding : 3px;
+  border: 1px;
+  text-align: center;
+  margin-right: 10px;
+  height: 12px;
+
+}
+.sidemenu div{
+  height: 250px;
+}
+footer
+{
+  border-top: 5px solid white;
+  height: 100px;
+}
+.image{
+  width:300px;
+  height: 300px;
+  border-radius: 3px;
+  border : 5px solid rgba(190,180,190,1);
+  float: left;
+  margin:5px;
+}
+.trending a li
+{
+  display: block;
+  padding-top: 4px;
+
+  height:30px;
+  background-color: rgba(0,0,0,0.7);
+}
+.trending a
+{
+  text-decoration: none;
+}
+.image1{
+  width:440px;
+  height: 245px;
+  border-radius: 3px;
+  border : 5px solid rgba(190,180,190,1);
+  margin:5px;
+
+}
+#img2
+{
+  padding-left: 40px;
+  padding-top: 15px;
+}
+.main p::first-letter{
+font-size: 200%;
+}
+div li:hover{
+  background-color: white;
+  color:black;
+}
+section
+{
+  font-weight: 0.9em;
+}

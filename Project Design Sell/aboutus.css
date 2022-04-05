@@ -1,0 +1,30 @@
+body
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header
+{
+
+  background: linear-gradient(to right,#87ceeb,transparent);
+  width:1024px;
+  color: blue;
+
+}
+.container
+{
+    width:1024px;
+    margin:auto;
+}
+.inline_block
+{
+  display: inline-block;
+}
+.container h1
+{
+  color:#87ceeb;
+  font-weight: 200%;
+}
+.container div
+{
+  border-top: 1px solid #87ceeb;
+}

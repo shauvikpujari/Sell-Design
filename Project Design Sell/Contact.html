@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+
+</head>
+
+<body>
+
+    <form class="Form" method="get">
+        <h1>Contact Us</h1>
+        <p>
+            <label>Name <input type="text" name="Customer name" required></label>
+        </p>
+
+        <p>
+            <label>Phone <input type="tel" name="Phone Number" required></label>
+        </p>
+
+        <p>
+            <label>Email <input type="email" name="Email Address" required></label>
+        </p>
+
+        <p><label>Address <textarea name="comments" maxlength="500"></textarea></label></p>
+        <p><label>Comment <textarea name="comments" maxlength="500"></textarea></label></p>
+        <div style="display:inline-block;">
+            <p><button onclick="invoke()">Submit</button></p>
+        </div>
+        <div id="press" style="display:inline-block;">
+        </div>
+    </form>
+    <script type="text/javascript">
+        function invoke() {
+            var a = document.getElementById('press');
+            a.innerHTML = "<h2>Contact Submitted Successfully!!!<h2>";
+        }
+
+    </script>
+</body>
+
+</html>

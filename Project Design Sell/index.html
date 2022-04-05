@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <title>index</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo" style="height:170px">
+
+        <div class="inline_block" style="padding-left:35%">
+          <center>
+            <h1 style="padding-bottom:0px;">TEMPLATE WORLD</h1>
+          </center>
+        </div>
+        <div class="inline_block" style="padding-top:20px;margin-top:20px;margin-left:10px">
+          <a href="https://www.simplilearn.com"><img src="image\logo.ico" alt="logo"></a>
+        </div>
+      </div>
+      <section style="padding-left:40px;">
+        <div class="inline_block thumbnail">
+          <img src="image\home_bg.png" alt="home">
+          <p>Home page:<a href="Home.html" target="_blank">(Click here for Demo)</a> </p>
+        </div>
+        <div class="inline_block thumbnail">
+          <img src="image\aboutus_bg.png" alt="home">
+          <p>About us page:<a href="Aboutus.html" target="_blank">(Click here for Demo)</a></p>
+        </div>
+        <div class="inline_block thumbnail">
+          <img src="image\contact_bg.png" alt="home">
+          <p>Contact page:<a href="Contact.html" target="_blank">(Click here for Demo)</a></p>
+        </div>
+        <div class="inline_block" style="padding-left:40%">
+          <center> <button type="button" name="button" onclick="invoke()"><span><img src="image\checklist.png"
+                  alt="purchase" style="padding-right:2px"> </span>BUY</button>
+            <center>
+        </div>
+        <div id="confirm" class="inline_block" style="padding-left:4%">
+        </div>
+      </section>
+  </div>
+
+  <script type="text/javascript">
+    function invoke() {
+      var a = document.getElementById('confirm');
+      a.innerHTML = "<h4>Thank You for Purchase!!!<h4>";
+    }
+
+  </script>
+</body>
+
+</html>
